@@ -1,0 +1,80 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Build
+build/
+target/
+out/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+hs_err_pid*
+replay_pid*
+
+# Spring Boot
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Env
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+# Coverage
+coverage/
+jacoco.exec
+
+# Temp
+tmp/
+temp/
+
+# Node (if frontend exists)
+node_modules/
+dist/
+
+# Docker
+*.pid
+
+# OS generated
+*.swp
+*.swo
